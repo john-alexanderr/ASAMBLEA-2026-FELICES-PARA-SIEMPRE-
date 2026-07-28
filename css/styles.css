@@ -10843,29 +10843,32 @@ header.masthead {
   background-color: #343a40;
   background: url("../assets/img/imagen principal .png") no-repeat center center;
   background-size: cover;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  background-attachment: fixed;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 header.masthead:before {
   content: "";
   position: absolute;
-  background-color: #1c375e;
+  background: linear-gradient(135deg, rgba(28,55,94,0.7) 0%, rgba(0,0,0,0.3) 100%);
   height: 100%;
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.5;
 }
 header.masthead h1, header.masthead .h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+  letter-spacing: 2px;
 }
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+    padding-top: 16rem;
+    padding-bottom: 16rem;
   }
   header.masthead h1, header.masthead .h1 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 }
 
