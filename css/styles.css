@@ -11190,11 +11190,12 @@ footer.footer h6 {
   .hero-content .hero-subtitle { font-size: 0.95rem; margin-top: 1rem; padding: 0 0.5rem; }
   .hero-content { width: 92%; }
 
-  .card-recursos { padding: 2rem 1.25rem; }
+  .card-recursos { padding: 1.5rem 1rem; }
   .card-recursos h3 { font-size: 1.1rem; }
-  .card-recursos .icon-box { width: 68px; height: 68px; }
+  .card-recursos .icon-box { width: 60px; height: 60px; }
 
-  .card-servicio { padding: 1.5rem; }
+  .card-servicio { padding: 1.25rem 1rem; }
+  .row.g-4 { --bs-gutter-x: 0.75rem; }
 
   .display-6 { font-size: 1.6rem; }
   blockquote.display-6 { font-size: 1.25rem; }
