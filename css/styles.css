@@ -11179,8 +11179,6 @@ footer.footer h6 {
   .navbar-toggler:focus { box-shadow: none; }
 
   #hero-reveal { height: 200vh; }
-  .hero-image-layer { background: #000; }
-  .hero-image-layer img { object-fit: contain; }
   .hero-content .hero-title { font-size: 2.2rem; }
   .hero-content .hero-title-accent { display: inline; }
   .hero-content .hero-subtitle { font-size: 0.95rem; margin-top: 1rem; padding: 0 0.5rem; }
