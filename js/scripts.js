@@ -1,7 +1,58 @@
+gsap.registerPlugin(ScrollTrigger);
+
+gsap.to('.layer-1 img', {
+  scrollTrigger: {
+    trigger: '#hero-reveal',
+    start: 'top top',
+    end: 'bottom center',
+    scrub: 1.2,
+  },
+  scale: 1.4,
+  opacity: 0,
+  filter: 'blur(12px)',
+  ease: 'power2.inOut',
+});
+
+gsap.to('.layer-2 img', {
+  scrollTrigger: {
+    trigger: '#hero-reveal',
+    start: 'top top',
+    end: 'bottom center',
+    scrub: 1.2,
+  },
+  scale: 1,
+  opacity: 1,
+  filter: 'blur(0px)',
+  ease: 'power2.inOut',
+});
+
+gsap.to('.hero-content', {
+  scrollTrigger: {
+    trigger: '#hero-reveal',
+    start: 'top top',
+    end: 'bottom center',
+    scrub: 1.2,
+  },
+  opacity: 0,
+  y: -80,
+  ease: 'power2.inOut',
+});
+
+gsap.to('.scroll-indicator', {
+  scrollTrigger: {
+    trigger: '#hero-reveal',
+    start: 'top top',
+    end: 'top 20%',
+    scrub: 1,
+  },
+  opacity: 0,
+  ease: 'power2.out',
+});
+
 AOS.init({
   duration: 800,
   once: true,
-  offset: 60
+  offset: 60,
 });
 
 const navbar = document.getElementById('mainNav');
