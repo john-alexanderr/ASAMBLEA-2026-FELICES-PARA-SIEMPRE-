@@ -11103,6 +11103,7 @@ textarea.form-control-lg {
   padding: 1.75rem;
   transition: all 0.3s ease;
   height: 100%;
+  text-align: center;
 }
 .card-servicio:hover {
   background: rgba(255,255,255,0.04);
@@ -11117,6 +11118,7 @@ textarea.form-control-lg {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0 auto 1rem;
 }
 .servicio-icon i {
   font-size: 1.5rem;
@@ -11179,6 +11181,8 @@ footer.footer h6 {
   .navbar-toggler:focus { box-shadow: none; }
 
   #hero-reveal { height: 200vh; }
+  .hero-image-layer { background: #000; }
+  .hero-image-layer img { object-fit: contain; }
   .hero-content .hero-title { font-size: 2.2rem; }
   .hero-content .hero-title-accent { display: inline; }
   .hero-content .hero-subtitle { font-size: 0.95rem; margin-top: 1rem; padding: 0 0.5rem; }
@@ -11189,8 +11193,7 @@ footer.footer h6 {
   .card-recursos .icon-box { width: 60px; height: 60px; }
   .card-recursos .icon-box i { font-size: 1.6rem; }
 
-  .card-servicio { flex-direction: column !important; text-align: center; padding: 1.5rem; gap: 1rem !important; }
-  .servicio-icon { margin: 0 auto; }
+  .card-servicio { padding: 1.5rem; }
 
   .display-6 { font-size: 1.6rem; }
   blockquote.display-6 { font-size: 1.25rem; }
@@ -11211,9 +11214,6 @@ footer.footer h6 {
 
   .hero-content .hero-title { font-size: 3rem; }
   .hero-content .hero-subtitle { font-size: 1.05rem; }
-
-  .card-servicio { flex-direction: column !important; text-align: center; gap: 1rem !important; }
-  .servicio-icon { margin: 0 auto; }
 
   #hero-reveal { height: 250vh; }
 
