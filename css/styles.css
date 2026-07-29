@@ -10841,7 +10841,7 @@ textarea.form-control-lg {
 header.masthead {
   position: relative;
   background-color: #0a0f1a;
-  background: url("../assets/img/imagen principal .png") no-repeat center center;
+  background: url("../assets/img/imagen principal.png") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
@@ -11546,7 +11546,7 @@ footer.footer h6 {
   z-index: 0;
 }
 .layer-bg {
-  background: url("../assets/img/imagen principal .png") no-repeat center center;
+  background: url("../assets/img/imagen principal.png") no-repeat center center;
   background-size: cover;
   transform: translateZ(-1px) scale(1.5);
   will-change: transform;
