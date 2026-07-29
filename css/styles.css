@@ -10909,12 +10909,12 @@ textarea.form-control-lg {
 }
 
 .hero-content .hero-subtitle {
-  color: rgba(255,255,255,0.6);
-  font-size: 0.85rem;
-  max-width: 480px;
-  margin: 1.2rem auto 0;
+  color: rgba(255,255,255,0.7);
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 1.5rem auto 0;
   font-weight: 300;
-  letter-spacing: 1.5px;
+  letter-spacing: 0.5px;
   text-shadow: 0 2px 20px rgba(0,0,0,0.4);
 }
 
@@ -10929,8 +10929,7 @@ textarea.form-control-lg {
     font-size: 6rem;
   }
   .hero-content .hero-subtitle {
-    font-size: 1rem;
-    letter-spacing: 2px;
+    font-size: 1.4rem;
   }
 }
 
@@ -11186,7 +11185,7 @@ footer.footer h6 {
   .hero-image-layer img { object-fit: contain; }
   .hero-content .hero-title { font-size: 2.2rem; }
   .hero-content .hero-title-accent { display: inline; }
-  .hero-content .hero-subtitle { font-size: 0.8rem; margin-top: 0.8rem; padding: 0 0.5rem; letter-spacing: 1px; }
+  .hero-content .hero-subtitle { font-size: 0.95rem; margin-top: 1rem; padding: 0 0.5rem; }
   .hero-content { width: 92%; }
 
   .card-recursos { padding: 2rem 1.25rem; }
