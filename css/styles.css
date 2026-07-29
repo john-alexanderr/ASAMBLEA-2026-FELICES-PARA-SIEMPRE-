@@ -11168,6 +11168,68 @@ footer.footer h6 {
 }
 
 /* --- RESPONSIVE --- */
-@media (max-width: 768px) {
+@media (max-width: 576px) {
+  html { font-size: 14px; }
+  .section { padding: 3rem 0; }
+  .container { padding-left: 1.25rem; padding-right: 1.25rem; }
+
+  #mainNav .navbar-brand { font-size: 1rem; }
+  #mainNav { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+  .navbar-toggler { border: none; padding: 0.4rem; }
+  .navbar-toggler:focus { box-shadow: none; }
+
+  #hero-reveal { height: 200vh; }
+  .hero-content .hero-title { font-size: 2.2rem; }
+  .hero-content .hero-title-accent { display: inline; }
+  .hero-content .hero-subtitle { font-size: 0.95rem; margin-top: 1rem; padding: 0 0.5rem; }
+  .hero-content { width: 92%; }
+
+  .card-recursos { padding: 2rem 1.25rem; }
+  .card-recursos h3 { font-size: 1.1rem; }
+  .card-recursos .icon-box { width: 60px; height: 60px; }
+  .card-recursos .icon-box i { font-size: 1.6rem; }
+
+  .card-servicio { flex-direction: column !important; text-align: center; padding: 1.5rem; gap: 1rem !important; }
+  .servicio-icon { margin: 0 auto; }
+
+  .display-6 { font-size: 1.6rem; }
+  blockquote.display-6 { font-size: 1.25rem; }
+
+  .scroll-indicator { bottom: 1.2rem; }
+  .mouse { width: 22px; height: 34px; }
+  .wheel { width: 3px; height: 6px; top: 6px; }
+
+  footer.footer { padding-top: 2.5rem; padding-bottom: 2.5rem; text-align: center; }
+  footer.footer .col-lg-3 { margin-top: 1.5rem; }
+  .social-link { width: 44px; height: 44px; margin: 0 auto; }
+  footer.footer .d-flex { justify-content: center; }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  html { font-size: 15px; }
   .section { padding: 4rem 0; }
+
+  .hero-content .hero-title { font-size: 3rem; }
+  .hero-content .hero-subtitle { font-size: 1.05rem; }
+
+  .card-servicio { flex-direction: column !important; text-align: center; gap: 1rem !important; }
+  .servicio-icon { margin: 0 auto; }
+
+  #hero-reveal { height: 250vh; }
+
+  footer.footer { text-align: center; }
+  footer.footer .d-flex { justify-content: center; }
+}
+
+@media (max-width: 991.98px) {
+  #navbarNav { background: rgba(10,15,26,0.98); border-radius: 16px; padding: 0.5rem 1rem; margin-top: 0.75rem; border: 1px solid rgba(255,255,255,0.06); }
+  #navbarNav .nav-link { padding: 0.75rem 0; text-align: center; }
+}
+
+@media (min-width: 769px) and (max-width: 991.98px) {
+  .hero-content .hero-title { font-size: 4rem; }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .hero-content .hero-title { font-size: 5rem; }
 }
