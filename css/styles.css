@@ -11071,17 +11071,18 @@ textarea.form-control-lg {
   border-color: rgba(var(--accent-rgb), 0.2);
 }
 .card-recursos .icon-box {
-  width: 70px;
-  height: 70px;
-  border-radius: 16px;
-  background: linear-gradient(135deg, rgba(var(--accent-rgb), 0.12), rgba(var(--accent-rgb), 0.05));
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, rgba(var(--accent-rgb), 0.15), rgba(var(--accent-rgb), 0.05));
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto 1.5rem;
+  box-shadow: 0 8px 24px rgba(var(--accent-rgb), 0.1);
 }
 .card-recursos .icon-box i {
-  font-size: 2rem;
+  font-size: clamp(1.6rem, 4vw, 2.2rem);
   color: var(--accent);
 }
 .card-recursos h3 {
@@ -11111,17 +11112,18 @@ textarea.form-control-lg {
   transform: translateY(-4px);
 }
 .servicio-icon {
-  width: 56px;
-  height: 56px;
-  border-radius: 14px;
-  background: rgba(var(--accent-rgb), 0.1);
+  width: 64px;
+  height: 64px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(var(--accent-rgb), 0.2), rgba(var(--accent-rgb), 0.08));
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto 1rem;
+  margin: 0 auto 1.2rem;
+  box-shadow: 0 6px 20px rgba(var(--accent-rgb), 0.08);
 }
 .servicio-icon i {
-  font-size: 1.5rem;
+  font-size: clamp(1.3rem, 3.5vw, 1.8rem);
   color: var(--accent);
 }
 .card-servicio h4 {
@@ -11190,8 +11192,7 @@ footer.footer h6 {
 
   .card-recursos { padding: 2rem 1.25rem; }
   .card-recursos h3 { font-size: 1.1rem; }
-  .card-recursos .icon-box { width: 60px; height: 60px; }
-  .card-recursos .icon-box i { font-size: 1.6rem; }
+  .card-recursos .icon-box { width: 68px; height: 68px; }
 
   .card-servicio { padding: 1.5rem; }
 
